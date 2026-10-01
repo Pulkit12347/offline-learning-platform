@@ -9,3 +9,6 @@ frontend/dist/
 frontend/node_modules/
 
 .DS_Store
+
+# Claude Code local session data and worktrees
+.claude/

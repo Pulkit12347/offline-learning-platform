@@ -37,7 +37,7 @@ function TopicsPage() {
   }, [])
 
   return (
-    <div className="min-h-screen bg-slate-50">
+    <>
       <header className="border-b border-slate-200 bg-white">
         <div className="mx-auto max-w-6xl px-4 py-8 sm:px-6 lg:px-8">
           <h1 className="text-3xl font-bold tracking-tight text-slate-900">
@@ -75,7 +75,7 @@ function TopicsPage() {
           </div>
         )}
       </main>
-    </div>
+    </>
   )
 }
 
